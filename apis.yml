@@ -1,8 +1,27 @@
 aid: proper
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/proper.png
 name: Proper
-description: 'Proper is a company surfaced as a portfolio company of qed-investors, redpoint-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: proptech. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Proper (proper.ai) is an AI-powered, full-service property-management
+  accounting and bookkeeping provider serving property managers, asset managers, and
+  real estate developers. Rather than shipping software, Proper delivers a trained
+  accounting team supported by automation to handle accounts payable, accounts receivable,
+  bank reconciliations, month-end close, and financial reporting, integrating with
+  existing property-management systems such as AppFolio, Buildium, and RentManager.
+  Founded in the property-management space in 2017, the company is backed by QED Investors,
+  Redpoint Ventures, MetaProp, Expa, and Bling Capital. As of this enrichment pass
+  Proper exposes no public API, developer portal, SDK, or machine-readable developer
+  surface; this profile is maintained as a company record.'
 url: https://raw.githubusercontent.com/api-evangelist/proper/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +32,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Proptech
+- Property Management
+- Accounting
+- Bookkeeping
+- Real Estate
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,4 +49,15 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://proper.ai/
+  url: https://www.proper.ai/
+- type: Blog
+  url: https://www.proper.ai/articles
+- type: TermsOfService
+  url: https://www.proper.ai/terms-of-services
+- type: PrivacyPolicy
+  url: https://www.proper.ai/privacy-policy
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
