@@ -50,7 +50,7 @@ tags:
 - Property Management
 - Accounting
 - Bookkeeping
-- Real-Estate
+- Real Estate
 - Artificial Intelligence
 tags_raw:
 - Company
@@ -60,6 +60,7 @@ tags_raw:
 - Bookkeeping
 - Real Estate
 - Artificial Intelligence
+- Real-Estate
 apis: []
 maintainers:
 - FN: Kin Lane
